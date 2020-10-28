@@ -65,6 +65,9 @@ function setup() {
   cloudsGroup = new Group();
   obstaclesGroup = new Group();
   
+  trex.setCollider("circle",0,0,40);
+  trex.debug = false
+  
   score = 0;
 }
 
